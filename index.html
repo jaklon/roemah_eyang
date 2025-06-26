@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nama Villa Anda - Homestay & Staycation di Bandung</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      xintegrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts: Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Animate On Scroll Library for cool effects -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Custom CSS (Gaya Kustom) -->
+  </head>
+  <body>
+    <!-- 1. NAVBAR / MENU ATAS -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top py-3">
+      <div class="container">
+        <!-- Ganti "Nama Villa Anda" dengan nama brand Anda -->
+        <a class="navbar-brand fw-bold fs-4" href="#">Nama Villa Anda</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto text-center">
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#hero">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#about">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#facilities">Fasilitas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#gallery">Galeri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#contact">Reservasi</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 2. HERO SECTION / BAGIAN PEMBUKA -->
+    <section id="hero" class="hero-section">
+      <div class="container text-center">
+        <div data-aos="fade-up">
+          <!-- Ganti teks H1 dan P sesuai keinginan -->
+          <h1 class="display-3">Surga Tersembunyi di Bandung</h1>
+          <p class="lead">
+            Rasakan kemewahan dan kenyamanan di villa pribadi 2 lantai kami,
+            lengkap dengan 6 kamar tidur dan kolam renang eksklusif. Sempurna
+            untuk liburan keluarga besar Anda.
+          </p>
+          <a
+            href="#contact"
+            class="btn btn-primary btn-lg rounded-pill px-4 py-2 mt-3 fw-bold"
+            >Pesan Sekarang <i class="bi bi-arrow-right ms-2"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. TENTANG KAMI -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6" data-aos="fade-right">
+            <!-- Ganti gambar ini dengan foto terbaik homestay Anda -->
+            <img
+              src="https://placehold.co/600x450/eee/333?text=Foto+Ruang+Keluarga"
+              alt="Interior Homestay"
+              class="img-fluid rounded-4 shadow-lg"
+            />
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <p class="section-subtitle">TENTANG KAMI</p>
+            <h2 class="section-title mb-4">
+              Tempat Terbaik untuk Menciptakan Kenangan Indah
+            </h2>
+            <!-- Ganti paragraf ini dengan cerita tentang homestay Anda -->
+            <p class="text-secondary">
+              Selamat datang di oase ketenangan kami di Bandung. Villa ini kami
+              bangun dengan cinta, dirancang untuk menjadi lebih dari sekadar
+              tempat menginap, melainkan sebuah rumah kedua bagi para tamu.
+              Dengan arsitektur modern dan sentuhan alam, kami menawarkan
+              pengalaman liburan yang privat dan nyaman.
+            </p>
+            <p class="text-secondary">
+              Setiap sudut rumah dirancang untuk kenyamanan maksimal, mulai dari
+              6 kamar tidur yang lega hingga kolam renang pribadi yang
+              menyegarkan. Lokasi kami yang strategis juga menjadi nilai tambah,
+              memudahkan Anda untuk menjelajahi pesona kota Bandung.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. FASILITAS UNGGULAN -->
+    <section id="facilities" class="section-padding bg-light">
+      <div class="container">
+        <div class="text-center" data-aos="fade-up">
+          <p class="section-subtitle">KENYAMANAN ANDA, PRIORITAS KAMI</p>
+          <h2 class="section-title mb-5">Fasilitas Lengkap & Modern</h2>
+        </div>
+        <div class="row text-center g-4">
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="card facility-card p-4 h-100">
+              <div
+                class="icon-box d-flex align-items-center justify-content-center mx-auto mb-3"
+              >
+                <i class="bi bi-water"></i>
+              </div>
+              <h4 class="fw-bold">Kolam Renang Pribadi</h4>
+              <p class="text-secondary mb-0">
+                Nikmati kesegaran kolam renang yang bersih dan terawat, tersedia
+                kapan saja.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="card facility-card p-4 h-100">
+              <div
+                class="icon-box d-flex align-items-center justify-content-center mx-auto mb-3"
+              >
+                <i class="bi bi-door-closed"></i>
+              </div>
+              <h4 class="fw-bold">6 Kamar Tidur</h4>
+              <p class="text-secondary mb-0">
+                Kamar luas dengan pendingin ruangan (AC) untuk istirahat yang
+                berkualitas.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="card facility-card p-4 h-100">
+              <div
+                class="icon-box d-flex align-items-center justify-content-center mx-auto mb-3"
+              >
+                <i class="bi bi-plus-lg"></i>
+              </div>
+              <h4 class="fw-bold">Extra Bed Tersedia</h4>
+              <p class="text-secondary mb-0">
+                Kapasitas fleksibel dengan tambahan extra bed di setiap kamar.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="card facility-card p-4 h-100">
+              <div
+                class="icon-box d-flex align-items-center justify-content-center mx-auto mb-3"
+              >
+                <i class="bi bi-wifi"></i>
+              </div>
+              <h4 class="fw-bold">WiFi Cepat Gratis</h4>
+              <p class="text-secondary mb-0">
+                Tetap produktif dan terhubung dengan koneksi internet di seluruh
+                area villa.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="card facility-card p-4 h-100">
+              <div
+                class="icon-box d-flex align-items-center justify-content-center mx-auto mb-3"
+              >
+                <i class="bi bi-cup-hot"></i>
+              </div>
+              <h4 class="fw-bold">Dapur Lengkap</h4>
+              <p class="text-secondary mb-0">
+                Area dapur dengan peralatan masak dan makan untuk kenyamanan
+                Anda.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="card facility-card p-4 h-100">
+              <div
+                class="icon-box d-flex align-items-center justify-content-center mx-auto mb-3"
+              >
+                <i class="bi bi-car-front-fill"></i>
+              </div>
+              <h4 class="fw-bold">Parkir Aman & Luas</h4>
+              <p class="text-secondary mb-0">
+                Area parkir pribadi yang mampu menampung beberapa kendaraan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. GALERI FOTO -->
+    <section id="gallery" class="section-padding">
+      <div class="container">
+        <div class="text-center" data-aos="fade-up">
+          <p class="section-subtitle">SUDUT FAVORIT KAMI</p>
+          <h2 class="section-title mb-5">Galeri Villa</h2>
+        </div>
+        <div class="row g-4">
+          <!-- Ganti semua src="" di bawah dengan URL/link foto-foto homestay Anda -->
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in">
+            <img
+              src="https://placehold.co/600x400/ddd/333?text=Foto+Kolam+Renang"
+              class="img-fluid gallery-img shadow-sm"
+              alt="Foto Kolam Renang"
+            />
+          </div>
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <img
+              src="https://placehold.co/600x400/ddd/333?text=Foto+Kamar+1"
+              class="img-fluid gallery-img shadow-sm"
+              alt="Foto Kamar Tidur"
+            />
+          </div>
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          >
+            <img
+              src="https://placehold.co/600x400/ddd/333?text=Foto+Fasad+Villa"
+              class="img-fluid gallery-img shadow-sm"
+              alt="Foto Eksterior Villa"
+            />
+          </div>
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="zoom-in"
+            data-aos-delay="300"
+          >
+            <img
+              src="https://placehold.co/600x400/ddd/333?text=Foto+Ruang+Santai"
+              class="img-fluid gallery-img shadow-sm"
+              alt="Foto Ruang Santai"
+            />
+          </div>
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="zoom-in"
+            data-aos-delay="400"
+          >
+            <img
+              src="https://placehold.co/600x400/ddd/333?text=Foto+Kamar+Mandi"
+              class="img-fluid gallery-img shadow-sm"
+              alt="Foto Kamar Mandi"
+            />
+          </div>
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="zoom-in"
+            data-aos-delay="500"
+          >
+            <img
+              src="https://placehold.co/600x400/ddd/333?text=Foto+Taman"
+              class="img-fluid gallery-img shadow-sm"
+              alt="Foto Taman"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. KONTAK & RESERVASI -->
+    <section id="contact" class="section-padding bg-light">
+      <div class="container">
+        <div class="text-center" data-aos="fade-up">
+          <p class="section-subtitle">JANGAN SAMPAI KEHABISAN</p>
+          <h2 class="section-title mb-3">Rencanakan Liburan Anda Sekarang!</h2>
+          <p class="text-secondary lead mx-auto" style="max-width: 700px">
+            Hubungi kami melalui WhatsApp untuk respon tercepat mengenai
+            ketersediaan tanggal dan harga spesial. Tim kami siap membantu Anda.
+          </p>
+        </div>
+        <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="100">
+          <!-- Ganti 6281234567890 dengan nomor WhatsApp Anda -->
+          <a
+            href="https://wa.me/6281234567890?text=Halo, saya tertarik untuk menyewa villa Anda. Mohon informasinya."
+            target="_blank"
+            class="btn btn-success btn-lg rounded-pill px-5 py-3 shadow-lg"
+          >
+            <i class="bi bi-whatsapp me-2"></i> Hubungi Kami di WhatsApp
+          </a>
+          <p class="mt-4 text-secondary">Atau temukan kami di:</p>
+          <!-- Ganti # dengan link AirBnB Anda -->
+          <a
+            href="#"
+            target="_blank"
+            class="btn btn-outline-dark rounded-pill px-4"
+          >
+            <i class="bi bi-house-heart-fill me-2"></i> Kunjungi Laman AirBnB
+            Kami
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. LOKASI -->
+    <section id="location" class="section-padding">
+      <div class="container">
+        <div class="text-center" data-aos="fade-up">
+          <p class="section-subtitle">TEMUKAN KAMI</p>
+          <h2 class="section-title mb-3">Lokasi Strategis di Bandung</h2>
+          <!-- GANTI DENGAN ALAMAT LENGKAP ANDA -->
+          <p class="text-secondary fs-5">
+            Jalan Villa Bahagia No. 45, Ciumbuleuit, Bandung, Jawa Barat
+          </p>
+        </div>
+        <!-- Google Maps Embed -->
+        <!-- CARA MENGGANTI PETA:
+                1. Buka Google Maps & cari alamat villa Anda.
+                2. Klik "Share" -> "Embed a map".
+                3. Klik "COPY HTML" dan tempel di bawah ini, menggantikan kode <iframe> yang ada.
+            -->
+        <div
+          class="ratio ratio-16x9 rounded-4 shadow-lg mt-5"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.56347831295!2d107.57311652414168!3d-6.903444341655789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Kota%20Bandung%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1678285519808!5m2!1sid!2sid"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. FOOTER -->
+    <footer class="footer pt-5 pb-4">
+      <div class="container text-center">
+        <h4 class="fw-bold text-white mb-3">Nama Villa Anda</h4>
+        <p>Jalan Villa Bahagia No. 45, Ciumbuleuit, Bandung</p>
+        <div class="mt-4">
+          <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+          <a href="https://wa.me/6281234567890" class="social-icon"
+            ><i class="bi bi-whatsapp"></i
+          ></a>
+        </div>
+        <hr class="my-4" style="border-color: rgba(255, 255, 255, 0.2)" />
+        <p class="mb-0">
+          &copy; <span id="year"></span> | Dibuat dengan
+          <i class="bi bi-heart-fill text-danger"></i> untuk Akomodasi Terbaik
+          di Bandung.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      xintegrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Animate on Scroll JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Script Kustom -->
+    <script>
+      // Inisialisasi Animate on Scroll
+      AOS.init({
+        duration: 800, // Durasi animasi
+        once: true, // Animasi hanya berjalan sekali
+      });
+
+      // Efek scroll pada Navbar
+      const navEl = document.querySelector("#navbar");
+      const navBrand = document.querySelector(".navbar-brand");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 50) {
+          navEl.classList.add("navbar-scrolled");
+          navBrand.classList.remove("fs-4");
+        } else {
+          navEl.classList.remove("navbar-scrolled");
+          navBrand.classList.add("fs-4");
+        }
+      });
+
+      // Set tahun di footer secara dinamis
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
